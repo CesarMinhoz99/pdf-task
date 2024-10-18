@@ -1,0 +1,73 @@
+/* Estilo para as páginas do PDF */
+.page {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.page.dragging {
+    opacity: 0.5;
+}
+
+/* Estilo para o grupo de páginas */
+.group {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    background-color: red;
+}
+
+/* Estilo para o contêiner de nome do grupo e o botão */
+.group-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Campo de nome do grupo */
+.group-name {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+/* Botão para salvar o grupo */
+.save-group-btn {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.save-group-btn:hover {
+    background-color: #45a049;
+}
+
+#zoom-controls {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#zoom-controls button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#zoom-controls button:hover {
+    background-color: #0056b3;
+}
